@@ -1,1 +1,399 @@
-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
+--=====================================================================
+-- ESCAPE KEYBOARD HUB | v1.0
+-- Author : Meister
+-- Toggle : INSERT
+--=====================================================================
+
+if not game:IsLoaded() then game.Loaded:Wait() end
+
+-- Load UI library
+local MeisterUI
+local ok, err = pcall(function()
+    MeisterUI = loadstring(game:HttpGet(
+        "https://raw.githubusercontent.com/ccdushii/DASDASDASDASDA/refs/heads/main/AAAAA"
+    ))()
+end)
+if not ok then
+    error("[HUB] Failed to load MeisterUI: " .. tostring(err))
+end
+
+--=====================================================================
+-- SERVICES
+--=====================================================================
+local Players           = game:GetService("Players")
+local RunService        = game:GetService("RunService")
+local UserInputService  = game:GetService("UserInputService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local TweenService      = game:GetService("TweenService")
+
+local LocalPlayer = Players.LocalPlayer
+local Camera      = workspace.CurrentCamera
+
+--=====================================================================
+-- CONFIGURATION STATE
+--=====================================================================
+local Cfg = {
+    WinPos        = Vector3.new(-6809.3223, 531.2539, 1468.8073),
+    WinSpeed      = 300,
+    WinHeight     = 900,
+    Fly           = false,
+    FlySpeed      = 300,
+    Noclip        = false,
+    SpeedHack     = false,
+    WalkSpeed     = 16,
+    JumpPower     = 50,
+    InfiniteJump  = false,
+}
+
+local FlyToggle
+local StartFly, StopFly
+
+--=====================================================================
+-- WINDOW
+--=====================================================================
+local Window = MeisterUI:CreateWindow({
+    Name     = "givedebt | Escape Keyboard Hub",
+    HideKey  = Enum.KeyCode.Insert,
+})
+
+local FarmTab   = Window:CreateTab("Auto Farm")
+local MoveTab   = Window:CreateTab("Movement")
+local PlayerTab = Window:CreateTab("Player")
+local MiscTab   = Window:CreateTab("Misc")
+
+--=====================================================================
+-- MOVEMENT LOGIC (Moved up for scope)
+--=====================================================================
+
+local FlyBV, FlyBG, FlyConn
+
+StartFly = function()
+    local char = LocalPlayer.Character
+    local root = char and char:FindFirstChild("HumanoidRootPart")
+    local hum  = char and char:FindFirstChildOfClass("Humanoid")
+
+    if not root or not hum then return end
+
+    if FlyBV then FlyBV:Destroy() end
+    if FlyBG then FlyBG:Destroy() end
+    if FlyConn then FlyConn:Disconnect() end
+
+    hum.PlatformStand = true
+
+    FlyBG = Instance.new("BodyGyro")
+    FlyBG.MaxTorque = Vector3.new(9e9, 9e9, 9e9)
+    FlyBG.P         = 5e4
+    FlyBG.CFrame    = root.CFrame
+    FlyBG.Parent    = root
+
+    FlyBV = Instance.new("BodyVelocity")
+    FlyBV.MaxForce = Vector3.new(9e9, 9e9, 9e9)
+    FlyBV.Velocity = Vector3.zero
+    FlyBV.Parent   = root
+
+    FlyConn = RunService.RenderStepped:Connect(function()
+        if not Cfg.Fly then return end
+        local cam = Camera.CFrame
+        local spd = Cfg.FlySpeed
+        local vel = Vector3.zero
+
+        if UserInputService:IsKeyDown(Enum.KeyCode.W)      then vel = vel + cam.LookVector   * spd end
+        if UserInputService:IsKeyDown(Enum.KeyCode.S)      then vel = vel - cam.LookVector   * spd end
+        if UserInputService:IsKeyDown(Enum.KeyCode.A)      then vel = vel - cam.RightVector   * spd end
+        if UserInputService:IsKeyDown(Enum.KeyCode.D)      then vel = vel + cam.RightVector   * spd end
+        if UserInputService:IsKeyDown(Enum.KeyCode.Space)  then vel = vel + Vector3.yAxis     * spd end
+        if UserInputService:IsKeyDown(Enum.KeyCode.LeftControl) then vel = vel - Vector3.yAxis * spd end
+
+        FlyBV.Velocity = vel
+        FlyBG.CFrame   = cam
+    end)
+end
+
+StopFly = function()
+    Cfg.Fly = false
+    if FlyToggle then FlyToggle:Set(false) end -- Sync UI
+    if FlyConn then FlyConn:Disconnect() ; FlyConn = nil end
+    if FlyBV   then FlyBV:Destroy()      ; FlyBV   = nil end
+    if FlyBG   then FlyBG:Destroy()      ; FlyBG   = nil end
+
+    local hum = LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+    if hum then 
+        hum.PlatformStand = false 
+        hum:ChangeState(Enum.HumanoidStateType.Running)
+    end
+end
+
+--=====================================================================
+-- AUTO FARM TAB
+--=====================================================================
+
+-- Auto Walk: Simulates movement to fool the server
+FarmTab:CreateToggle({
+    Name = "Auto Walk",
+    CurrentValue = false,
+    Callback = function(v)
+        Cfg.AutoWalk = v
+        if v then
+            task.spawn(function()
+                while Cfg.AutoWalk do
+                    local char = LocalPlayer.Character
+                    local hum  = char and char:FindFirstChildOfClass("Humanoid")
+                    if hum then
+                        -- Simulate walk forward and backward slightly
+                        hum:Move(Vector3.new(0, 0, 1), true)
+                        task.wait(0.1)
+                        hum:Move(Vector3.new(0, 0, -1), true)
+                    end
+                    task.wait(0.1)
+                end
+            end)
+        end
+    end
+})
+
+FarmTab:CreateSeparator()
+
+-- Auto Win: Tweens to destination to bypass anti-cheat
+FarmTab:CreateToggle({
+    Name = "Auto Win (Smooth Travel)",
+    CurrentValue = false,
+    Callback = function(v)
+        Cfg.AutoWin = v
+        if v then
+            task.spawn(function()
+                while Cfg.AutoWin do
+                    local char = LocalPlayer.Character
+                    local root = char and char:FindFirstChild("HumanoidRootPart")
+                    
+                    if root and Cfg.WinPos then
+                        local dist = (root.Position - Cfg.WinPos).Magnitude
+
+                        if dist > 5 then
+                            -- Enable Fly and Noclip visual/state during travel
+                            if not Cfg.Fly then
+                                Cfg.Fly = true
+                                StartFly()
+                            end
+                            local oldNoclip = Cfg.Noclip
+                            Cfg.Noclip = true
+
+                            -- Rise up first
+                            MeisterUI:Notify({Title="Auto Win", Content="Rising up...", Duration=2})
+                            local riseHeight = Cfg.WinHeight
+                            local riseStart = root.CFrame
+                            local riseEnd = riseStart * CFrame.new(0, riseHeight, 0)
+
+                            for i = 0, 1, 0.05 do
+                                if not Cfg.AutoWin or not root.Parent then break end
+                                root.CFrame = riseStart:Lerp(riseEnd, i)
+                                task.wait(0.02)
+                            end
+
+                            if not Cfg.AutoWin or not root.Parent then Cfg.Noclip = oldNoclip return end
+                            task.wait(0.2)
+
+                            -- Horizontal travel
+                            MeisterUI:Notify({Title="Auto Win", Content="Traveling...", Duration=2})
+                            local startCF = root.CFrame
+                            local targetPos = Vector3.new(Cfg.WinPos.X, root.Position.Y, Cfg.WinPos.Z)
+                            local targetCF = CFrame.new(targetPos, Vector3.new(targetPos.X, targetPos.Y, targetPos.Z + 1))
+
+                            local distance = (root.Position - targetPos).Magnitude
+                            local steps = math.floor(distance / (Cfg.WinSpeed / 30))
+
+                            for i = 1, steps do
+                                if not Cfg.AutoWin or not root.Parent then break end
+                                root.CFrame = startCF:Lerp(targetCF, i/steps)
+                                task.wait(0.03)
+                            end
+
+                            if not Cfg.AutoWin or not root.Parent then Cfg.Noclip = oldNoclip return end
+                            task.wait(0.2)
+
+                            -- Descend
+                            MeisterUI:Notify({Title="Auto Win", Content="Descending...", Duration=2})
+                            local currentCF = root.CFrame
+                            local finalCF = CFrame.new(Cfg.WinPos)
+
+                            for i = 0, 1, 0.01 do
+                                if not Cfg.AutoWin or not root.Parent then break end
+                                root.CFrame = currentCF:Lerp(finalCF, i)
+                                task.wait(0.01)
+                            end
+
+                            if root.Parent then
+                                root.CFrame = finalCF
+                            end
+
+                            Cfg.Noclip = oldNoclip
+                            StopFly() -- This will also update the UI toggle
+
+                            MeisterUI:Notify({
+                                Title   = "Auto Win",
+                                Content = "Arrived! Resetting in 3s...",
+                                Duration = 3
+                            })
+
+                            task.wait(3)
+
+                            -- Reset character to spawn
+                            local hum = LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+                            if hum then hum.Health = 0 end
+
+                            MeisterUI:Notify({
+                                Title   = "Auto Win",
+                                Content = "Resetting... Next loop in 5s.",
+                                Duration = 5
+                            })
+
+                            task.wait(5)
+                        end
+                    end
+                    task.wait(0.1) -- Fast poll for start
+                end
+            end)
+        end
+    end
+})
+
+--=====================================================================
+-- MOVEMENT TAB
+--=====================================================================
+
+FlyToggle = MoveTab:CreateToggle({
+    Name         = "Fly (WASD + Space / Ctrl)",
+    CurrentValue = false,
+    Callback = function(v)
+        Cfg.Fly = v
+        if v then StartFly() else StopFly() end
+    end
+})
+
+MoveTab:CreateSlider({
+    Name         = "Fly Speed",
+    Range        = {10, 2000},
+    Increment    = 10,
+    CurrentValue = 300,
+    Callback     = function(v) Cfg.FlySpeed = v end
+})
+
+LocalPlayer.CharacterAdded:Connect(function()
+    task.wait(1)
+    if Cfg.Fly then StartFly() end
+end)
+
+MoveTab:CreateSeparator()
+
+MoveTab:CreateToggle({
+    Name         = "Noclip",
+    CurrentValue = false,
+    Callback     = function(v) Cfg.Noclip = v end
+})
+
+--=====================================================================
+-- PLAYER TAB
+--=====================================================================
+
+PlayerTab:CreateSlider({
+    Name         = "Walk Speed",
+    Range        = {16, 1000},
+    Increment    = 1,
+    CurrentValue = 16,
+    Callback = function(v)
+        Cfg.WalkSpeed = v
+        local hum = LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+        if hum then hum.WalkSpeed = v end
+    end
+})
+
+PlayerTab:CreateSlider({
+    Name         = "Jump Power",
+    Range        = {50, 1000},
+    Increment    = 1,
+    CurrentValue = 50,
+    Callback = function(v)
+        Cfg.JumpPower = v
+        local hum = LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+        if hum then
+            hum.UseJumpPower = true
+            hum.JumpPower    = v
+        end
+    end
+})
+
+PlayerTab:CreateToggle({
+    Name         = "Infinite Jump",
+    CurrentValue = false,
+    Callback     = function(v) Cfg.InfiniteJump = v end
+})
+
+UserInputService.JumpRequest:Connect(function()
+    if Cfg.InfiniteJump then
+        local hum = LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+        if hum then hum:ChangeState("Jumping") end
+    end
+end)
+
+--=====================================================================
+-- MISC TAB
+--=====================================================================
+
+MiscTab:CreateButton({
+    Name = "Enable Anti-AFK",
+    Callback = function()
+        local vu = game:GetService("VirtualUser")
+        LocalPlayer.Idled:Connect(function()
+            vu:Button2Down(Vector2.new(0, 0), Camera.CFrame)
+            task.wait(1)
+            vu:Button2Up(Vector2.new(0, 0), Camera.CFrame)
+        end)
+        MeisterUI:Notify({
+            Title   = "Anti-AFK",
+            Content = "Active",
+            Duration = 3
+        })
+    end
+})
+
+MiscTab:CreateButton({
+    Name = "Unload Hub",
+    Callback = function()
+        Cfg.AutoWalk   = false
+        Cfg.AutoWin    = false
+        Cfg.InfiniteJump = false
+        StopFly()
+        local cg = game:GetService("CoreGui")
+        local ui = cg:FindFirstChild("MeisterUI_Environment")
+        if ui then ui:Destroy() end
+    end
+})
+
+--=====================================================================
+-- PHYSICS LOOP
+--=====================================================================
+RunService.Stepped:Connect(function()
+    local char = LocalPlayer.Character
+    if not char then return end
+    local hum  = char:FindFirstChildOfClass("Humanoid")
+    local root = char:FindFirstChild("HumanoidRootPart")
+
+    -- Noclip
+    if Cfg.Noclip then
+        for _, part in pairs(char:GetDescendants()) do
+            if part:IsA("BasePart") then
+                part.CanCollide = false
+            end
+        end
+    end
+
+    -- Preserve WalkSpeed
+    if hum and Cfg.WalkSpeed ~= 16 then
+        hum.WalkSpeed = Cfg.WalkSpeed
+    end
+end)
+
+MeisterUI:Notify({
+    Title   = "givedebt Hub Loaded",
+    Content = "Press INSERT to toggle menu.",
+    Duration = 5
+})
